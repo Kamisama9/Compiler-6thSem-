@@ -1,0 +1,92 @@
+
+
+#include<stdio.h>	HEADER				Line 1
+int			KEYWORD				Line 2
+main()			MAIN FUNCTION			Line 2
+{			SPECIAL SYMBOL			Line 3
+int			KEYWORD				Line 4
+a			IDENTIFIER			Line 4
+,			SPECIAL SYMBOL			Line 4
+i			IDENTIFIER			Line 4
+,			SPECIAL SYMBOL			Line 4
+flag			IDENTIFIER			Line 4
+=			OPERATOR			Line 4
+0			INTEGER CONSTANT		Line 4
+;			SPECIAL SYMBOL			Line 4
+printf			PRE DEFINED FUNCTION		Line 5
+(			SPECIAL SYMBOL			Line 5
+"			SPECIAL SYMBOL			Line 5
+Input			IDENTIFIER			Line 5
+no			IDENTIFIER			Line 5
+"			SPECIAL SYMBOL			Line 5
+)			SPECIAL SYMBOL			Line 5
+;			SPECIAL SYMBOL			Line 5
+scanf			PRE DEFINED FUNCTION		Line 6
+(			SPECIAL SYMBOL			Line 6
+"			SPECIAL SYMBOL			Line 6
+%d			TYPE SPECIFIER			Line 6
+"			SPECIAL SYMBOL			Line 6
+,			SPECIAL SYMBOL			Line 6
+&a			IDENTIFIER			Line 6
+)			SPECIAL SYMBOL			Line 6
+;			SPECIAL SYMBOL			Line 6
+i			IDENTIFIER			Line 7
+=			OPERATOR			Line 7
+2			INTEGER CONSTANT		Line 7
+;			SPECIAL SYMBOL			Line 7
+while			KEYWORD				Line 8
+(			SPECIAL SYMBOL			Line 8
+i			IDENTIFIER			Line 8
+<=			OPERATOR			Line 8
+a			IDENTIFIER			Line 8
+/			OPERATOR			Line 8
+2			INTEGER CONSTANT		Line 8
+)			SPECIAL SYMBOL			Line 8
+{			SPECIAL SYMBOL			Line 9
+if			KEYWORD				Line 10
+(			SPECIAL SYMBOL			Line 10
+a			IDENTIFIER			Line 10
+%			OPERATOR			Line 10
+i			IDENTIFIER			Line 10
+==			OPERATOR			Line 10
+0			INTEGER CONSTANT		Line 10
+)			SPECIAL SYMBOL			Line 10
+{			SPECIAL SYMBOL			Line 11
+flag			IDENTIFIER			Line 12
+=			OPERATOR			Line 12
+1			INTEGER CONSTANT		Line 12
+;			SPECIAL SYMBOL			Line 12
+break			KEYWORD				Line 13
+;			SPECIAL SYMBOL			Line 13
+}			SPECIAL SYMBOL			Line 14
+i			IDENTIFIER			Line 15
+++			OPERATOR			Line 15
+;			SPECIAL SYMBOL			Line 15
+}			SPECIAL SYMBOL			Line 16
+if			KEYWORD				Line 17
+(			SPECIAL SYMBOL			Line 17
+flag			IDENTIFIER			Line 17
+==			OPERATOR			Line 17
+0			INTEGER CONSTANT		Line 17
+)			SPECIAL SYMBOL			Line 17
+printf			PRE DEFINED FUNCTION		Line 18
+(			SPECIAL SYMBOL			Line 18
+"			SPECIAL SYMBOL			Line 18
+Prime			IDENTIFIER			Line 18
+"			SPECIAL SYMBOL			Line 18
+)			SPECIAL SYMBOL			Line 18
+;			SPECIAL SYMBOL			Line 18
+else			KEYWORD				Line 19
+printf			PRE DEFINED FUNCTION		Line 20
+(			SPECIAL SYMBOL			Line 20
+"			SPECIAL SYMBOL			Line 20
+Not			IDENTIFIER			Line 20
+Prime			IDENTIFIER			Line 20
+"			SPECIAL SYMBOL			Line 20
+)			SPECIAL SYMBOL			Line 20
+;			SPECIAL SYMBOL			Line 20
+return			KEYWORD				Line 21
+0			INTEGER CONSTANT		Line 21
+;			SPECIAL SYMBOL			Line 21
+}			SPECIAL SYMBOL			Line 22
+
